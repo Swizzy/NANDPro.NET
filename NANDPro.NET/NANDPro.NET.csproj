@@ -36,6 +36,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\x360NANDManager\x360NANDManager\x360NANDManager\x360NANDManager.csproj">
+      <Project>{449bda2c-811f-4b77-9b84-7ab4f2b695ae}</Project>
+      <Name>x360NANDManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

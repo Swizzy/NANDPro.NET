@@ -1,0 +1,3 @@
+[submodule "x360NANDManager"]
+	path = x360NANDManager
+	url = git@github.com:Swizzy/x360NANDManager.git
